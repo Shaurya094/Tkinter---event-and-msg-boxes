@@ -3,10 +3,9 @@ import tkinter as tk
 screen = Tk()
 screen.title = ("Inches to cm")
 screen.geometry = ('400x300')
-root = tk.Tk()
 tb = Text(height=3)
 
-inches = Label(text= "Inches:", fg = "red", bg = "grey", height = 1, width = 30)
+inches = Label(text= "Enter size in inches:", fg = "white", bg = "grey", height = 1, width = 30)
 inchesE = Entry()
 
 def convert():
